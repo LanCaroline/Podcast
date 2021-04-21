@@ -1,0 +1,9 @@
+Os conceitos de SSR e SSG. 
+SSR Server Side Rendering, 
+
+é um fluxo onde o servidor do Next.js retorna a parte da visualização para o cliente(Browser), fazendo isso de forma automatizada, ou seja, a interfase não será criada diretamente no navegador de quem acessa, o next criar e envia. 
+
+E SSG Static Site Generation, 
+
+o fluxo funciona da mesma forma que o SSR a diferença é que a página criada no servidor do node.js será salva e retornará a mesma em todos os clientes. Então, a atualização dos dados da página é configurada de acordo com a necessidade do conteúdo da aplicação. 
+
